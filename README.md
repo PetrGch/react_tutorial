@@ -28,3 +28,23 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+### Enabling ES6 and JSX
+
+The [Babel](https://babeljs.io/docs/setup/) setup instructions explain how to configure Babel in many different build environments.
+
+_Make sure you install_ `babel-preset-react` _and_ `babel-preset-es2015` _and enable them in your_ **.babelrc,** _and you're good to go._
+
+### Using a CDN
+
+```
+<script src="https://unpkg.com/react@15/dist/react.js"></script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+```
+
+_To load a specific version of_ `react` _and_ `react-dom`, _replace 15 with the version number._
+
+
+### A Note on JavaScript
+
+_We also use some of the ES6 syntax in the examples. We try to use it sparingly because it's still relatively new, but we encourage you to get familiar with_ `arrow functions`, `classes`, `template literals`, `let`, _and_ `const` _statements. You can use Babel REPL to check what ES6 code compiles to._
